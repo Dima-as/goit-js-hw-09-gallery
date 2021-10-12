@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Dima-as/goit-js-hw-09-gallery.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,13 +20,12 @@
   "homepage": "https://github.com/Dima-as/goit-js-hw-09-gallery#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-handlebars-precompile-ts": "^1.0.0",
-    "prettier": "2.4.1",
-    "typescript": "^4.4.3"
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "dependencies": {
-    "lodash.throttle": "^4.1.1",
-    "sass": "^1.42.1"
+    "express-handlebars": "^5.3.4",
+    "handlebars": "^4.7.7",
+    "internal": "^2.0.27",
+    "lodash.throttle": "^4.1.1"
   }
 }
